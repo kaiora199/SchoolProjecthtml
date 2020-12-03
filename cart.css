@@ -1,292 +1,275 @@
-html{
-    background-color: #fff;
+html {
+  background-color: #fff;
 }
 
-
-.container{
-    display: flex;
-    background-color: #f6f6f6;
-    
-    
+.container {
+  display: flex;
+  background-color: #f6f6f6;
 }
 
-.container2{
-    display: flex;
-    justify-content: space-between;    
-    
+.container2 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.img1{
-    padding-right: 290px;
-    
+.img1 {
+  padding-right: 290px;
 }
 
-body{
-    width: 1024px;
-    font-family: 'Montserrat', sans-serif;
+body {
+  width: 1024px;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
 }
 
-.button2{
-    border: 0px;
-    background-color: #f6f6f6;
-    letter-spacing: 3px;
-    font-size: 17px;
-    color: #AAAAAA;
-    font-weight: bold;
-    padding: 20px;
-    outline: none;
-    
-    
-    
+.button2 {
+  border: 0px;
+  background-color: #f6f6f6;
+  letter-spacing: 3px;
+  font-size: 17px;
+  color: #aaaaaa;
+  font-weight: bold;
+  padding: 20px;
+  outline: none;
 }
 
-.button2:hover{
-    color:#7f7f7f ;
+.button2:hover {
+  color: #7f7f7f;
 }
 
-textarea{
-    resize: none;
-    height: 30px;
-    vertical-align: bottom;
+textarea {
+  resize: none;
+  height: 30px;
+  vertical-align: bottom;
 }
 
-
-.container3{
-    background-color: #ffffff;
-    display: flex;
-    width: 40%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between; 
-    left: 10px;
-    position: relative;
-    padding: 10px;
-    border: 20px solid #ffffff;
-    
-    
+.container3 {
+  background-color: #ffffff;
+  display: flex;
+  width: 40%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 10px;
+  position: relative;
+  padding: 10px;
+  border: 20px solid #ffffff;
 }
 
-.produceimg{
-    border: 1px solid #ccc;
+.produceimg {
+  border: 1px solid #ccc;
 }
 
-.producediv{
-    float: right;
-    position: relative;
-    left: 6px;
+.producediv {
+  float: right;
+  position: relative;
+  left: 6px;
 }
 
-.container4{
-    display: flex;
-    justify-content: space-between;
-    background-color: #f6f6f6;
-    padding: 40px;
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    text-align: right;
-    height: 120px;
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-align: right;
+  height: 120px;
 }
 
 .rmvbtn {
-    border: 0px;
-    background-color: #f6f6f6;
-    color: #AAAAAA;
-    font-size: 20px;
-    outline: none;
-
+  border: 0px;
+  background-color: #f6f6f6;
+  color: #aaaaaa;
+  font-size: 20px;
+  outline: none;
 }
 
-.bkbtn{
-    background-color: white;
-    outline: none;
-    border:none;
-    font-size: 20px;
-    margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 10px;
-    border-radius: 20px;
+.bkbtn {
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  border-radius: 20px;
 }
 
-.rmvbtn:hover{
-    color:#7f7f7f ;
+.rmvbtn:hover {
+  color: #7f7f7f;
 }
 
-.bkbtn:hover{
-    background-color: #f6f6f6;
-    outline: none;
-    border:none;
-    font-size: 20px;
+.bkbtn:hover {
+  background-color: #f6f6f6;
+  outline: none;
+  border: none;
+  font-size: 20px;
 }
 
-.submit2{
-    outline: none;
-    height: 30px;
-    border-color: black;
-    border-width: 1px;
-    right: 10px;
-    position: relative;
-    background-color: white;
+.submit2 {
+  outline: none;
+  height: 30px;
+  border-color: black;
+  border-width: 1px;
+  right: 10px;
+  position: relative;
+  background-color: white;
 }
 
-.submit2:hover{
-    background-color: #f6f6f6;
+.submit2:hover {
+  background-color: #f6f6f6;
 }
 
 #container3 {
-    display: flex;
-    height: 140px;
-    background-color: #f6f6f6;
+  display: flex;
+  height: 140px;
+  background-color: #f6f6f6;
 }
-  
+
 #container3 h5 {
-    font-family: "Montserrat", sans-serif;
-    margin-top: 40px;
-    font-weight: 400;
-    margin-left: 53px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  font-weight: 400;
+  margin-left: 53px;
 }
-  
+
 #newsletter {
-    position: relative;
-    bottom: -7px;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  bottom: -7px;
+  display: flex;
+  flex-direction: column;
 }
-  
+
 #form {
-    margin-top: -10px;
-    position: relative;
-    bottom: 10px;
-    margin-left: 53px;
-    
+  margin-top: -10px;
+  position: relative;
+  bottom: 10px;
+  margin-left: 53px;
 }
-  
+
 #form input {
-    width: 260px;
-    height: 24px;
+  width: 260px;
+  height: 24px;
 }
-  
+
 #form button {
-    font-size: 12px;
-    font-family: "Montserrat", sans-serif;
-    background-color: #ffffff;
-    border: 1px solid #333333;
-    margin-left: -5px;
-    font-weight: 400;
-    height: 24px;
-    width: 100px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  margin-left: -5px;
+  font-weight: 400;
+  height: 24px;
+  width: 100px;
 }
 
 #form button:hover {
-    outline: none;
-    background-color: #f6f6f6
+  outline: none;
+  background-color: #f6f6f6;
 }
 
 #form button:focus {
-    outline: none;
-    background-color: #f6f6f6
+  outline: none;
+  background-color: #f6f6f6;
 }
 
 #form button:focus {
-    outline: none;
-    background-color: #f6f6f6
+  outline: none;
+  background-color: #f6f6f6;
 }
-  
+
 #container4 {
-    margin-top: 10px;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 95px;
+  margin-top: 10px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 95px;
 }
-  
+
 #container4 button {
-    border: 0px;
-    background-color: #f6f6f6;
-    letter-spacing: 2px;
-    font-size: 17px;
-    color: #aaaaaa;
-    font-weight: bold;
-    padding: 20px;
+  border: 0px;
+  background-color: #f6f6f6;
+  letter-spacing: 2px;
+  font-size: 17px;
+  color: #aaaaaa;
+  font-weight: bold;
+  padding: 20px;
 }
-  
-#container4 button:hover{
-    color: #7f7f7f;
+
+#container4 button:hover {
+  color: #7f7f7f;
 }
 
 h5 {
-    font-family: "Montserrat", sans-serif;
-    font-style: italic;
-    margin-top: 40px;
-    font-weight: 400;
-    font-size: 13px;
-    margin-left: 53px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 53px;
 }
 
-.order{
-    float: right;
-    position: relative;
-    background-color: #f6f6f6;
-    padding: 20px;
-    margin-top: 100px;
-    width: 35%;
-    text-align: left;
-    letter-spacing: 1px;
-    height: 60%;
-    font-family: "Montserrat", sans-serif;
-    right: 40px;
+.order {
+  float: right;
+  position: relative;
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin-top: 100px;
+  width: 35%;
+  text-align: left;
+  letter-spacing: 1px;
+  height: 60%;
+  font-family: "Montserrat", sans-serif;
+  right: 40px;
 }
 
-.sum{
-    font-weight: bold;
-    font-size: 17px;
-    color: #7f7f7f
+.sum {
+  font-weight: bold;
+  font-size: 17px;
+  color: #7f7f7f;
 }
 
-.ordid{
-    font-weight: bolder;
-    color: #7f7f7f;
-    margin-top: 5px
+.ordid {
+  font-weight: bolder;
+  color: #7f7f7f;
+  margin-top: 5px;
 }
 
-.ordleft{
-    color: #333333;
-    margin-top: 50px;
-    font-weight: 500;
+.ordleft {
+  color: #333333;
+  margin-top: 50px;
+  font-weight: 500;
 }
 
-.ordright{
-    color: #555555;
-    float: right;
-    margin-top: 50px;
-
+.ordright {
+  color: #555555;
+  float: right;
+  margin-top: 50px;
 }
 
-.ordtot{
-    color: #333333;
-    font-weight: Bold;
-    margin-top: 50px;
+.ordtot {
+  color: #333333;
+  font-weight: Bold;
+  margin-top: 50px;
 }
 
-.ordpric{
-    color: #555555;
-    float: right;
-    margin-top: 50px;
-    font-weight: bold;
+.ordpric {
+  color: #555555;
+  float: right;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
-.checbut{
-    float: left;
-    margin-top: 70px;
-    margin-left: 35%;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 10px;
-    outline: none;
-    background-color: #000000;
-    color: white;
-    font-family: "Montserrat", sans-serif;
+.checbut {
+  float: left;
+  margin-top: 70px;
+  margin-left: 35%;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  background-color: #000000;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
-
-
-
-
