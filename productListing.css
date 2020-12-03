@@ -133,6 +133,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
+    padding-bottom: 5px;
 }
 
 .sortBy select {
@@ -142,14 +143,22 @@ body {
     letter-spacing: 1px;
     outline: none;
     border: none;
+    padding-bottom: 5px;
 }
 
 .firstColumn {
-    display: inline-block;
+    margin-top: -935px;
+    margin-left: 350px;
+    width: 50%;
 }
 
 .secondColumn {
+    margin-top: -1320px;
+    margin-left: 745px;
+}
 
+.frame {
+    margin-bottom: -50px;
 }
 
 .products button {
@@ -187,8 +196,15 @@ body {
 }
 
 .results h3 {
+    text-align: right;
     font-weight: 300;
     font-size: 13px;
+}
+
+.pageNavigation {
+    margin-top: -25px;
+    margin-left: 110px;
+    position: absolute;
 }
 
 .pageNavigation button {
@@ -216,6 +232,7 @@ body {
     height: 140px;
     background-color: #f6f6f6;
     margin-top: 30px;
+    position: absolute;
   }
   
 .footer h5 {
