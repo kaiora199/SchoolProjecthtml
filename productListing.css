@@ -68,10 +68,14 @@ body {
     border-radius: 3px 0 0 3px;
 }
 
+.container {
+    display: flex;
+}
+
 .categoryHeader {
     margin-top: -5px;
     margin-left: 50px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
 }
 
 .categoryHeader h3{
@@ -79,6 +83,16 @@ body {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.firstColumn {
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-right: 127px;
+}
+
+.secondColumn {
+    margin-top: -1px;
 }
 
 .tables {
@@ -89,7 +103,6 @@ body {
 .tables table {
     margin-top: -15px;
     margin-bottom: 15px;
-
 }
 
 .tables h3 {
@@ -146,19 +159,8 @@ body {
     padding-bottom: 5px;
 }
 
-.firstColumn {
-    margin-top: -935px;
-    margin-left: 350px;
-    width: 50%;
-}
-
-.secondColumn {
-    margin-top: -1320px;
-    margin-left: 745px;
-}
-
 .frame {
-    margin-bottom: -50px;
+    margin-bottom: -60px;
 }
 
 .products button {
