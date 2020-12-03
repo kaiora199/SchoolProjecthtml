@@ -129,9 +129,86 @@ body {
     cursor: pointer;
 }
 
-.table img {
-    margin-left: 45px;
-    display: left;
+.sortBy label {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.sortBy select {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+
+.firstColumn {
+    display: inline-block;
+}
+
+.secondColumn {
+
+}
+
+.products button {
+    background-color: transparent;
+    color: #303030;
+    border: none;
+    cursor: pointer;
+    margin-left: 160px;
+}
+
+.products button:focus {
+    outline: none;
+}
+
+.productDetails {
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 280px;
+    height: 85px;
+    position: relative;
+    bottom: 110px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.productDetails h3 {
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.productDetails t {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.results h3 {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.pageNavigation button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #AAAAAA;
+    background-color: transparent;
+    border: none;
+}
+
+.pageNavigation button:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.pageNavigation button:focus {
+    cursor: pointer;
+    color: #000000;
+    outline: none;
 }
 
 .footer {
