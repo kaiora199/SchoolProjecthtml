@@ -9,6 +9,9 @@ body {
   background-color: #ffffff;
 }
 
+button {
+  cursor: pointer;
+}
 #container {
   display: flex;
   background-color: #f6f6f6;
@@ -20,7 +23,7 @@ body {
 }
 
 #container img {
-  padding-right: 320px;
+  padding-right: 290px;
 }
 
 #container2 button {
@@ -31,6 +34,7 @@ body {
   color: #aaaaaa;
   font-weight: bold;
   padding: 20px;
+  outline: none;
 }
 
 #container2 button:hover {
@@ -54,18 +58,21 @@ body {
   padding: 0px;
   margin: 20px 30px 0px 20px;
   font-size: 18px;
+  outline: none;
 }
 
 #navbar select {
   font-weight: 500;
   color: #f2f2f2;
   background-color: #333333;
+  transition: background-color 0.8s ease;
   height: 40px;
   width: 184px;
   border-radius: 7px;
   vertical-align: middle;
   font-size: 18px;
   margin: 20px 20px 0px 20px;
+  outline: none;
 }
 
 #navbar :nth-child(1) {
@@ -81,6 +88,7 @@ body {
 }
 
 #navbar :nth-child(4) {
+  transition: background-color 0.8s ease;
   color: #333333;
   background-color: #ffffff;
   border: 1px solid #333333;
@@ -109,7 +117,7 @@ body {
 #Description p1 {
   font-family: "Montserrat", sans-serif;
   position: relative;
-  bottom: 60px;
+  top: 40px;
   margin-left: 20px;
   font-size: 13px;
   line-height: 25px;
@@ -153,6 +161,7 @@ body {
   display: flexbox;
   position: relative;
   left: 65px;
+  margin-bottom: 20px;
 }
 
 #size {
@@ -169,9 +178,12 @@ body {
   border-radius: 50px;
   border: 1px solid #333333;
   margin: 3px;
+  outline: none;
+  cursor: pointer;
 }
 
-#size button:hover {
+#size .sizeOn {
+  transition: background-color 0.6s ease;
   background-color: #333333;
   color: #ffffff;
   border: 1px solid #333333;
@@ -179,16 +191,18 @@ body {
 
 .addToCart {
   position: relative;
-  bottom: 100px;
+  top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-left: 20px;
   width: 297px;
   height: 50px;
   border-radius: 7px;
+  transition: background-color 0.8s ease;
   background-color: #333333;
   color: #ffffff;
   border: 1px solid #333333;
+  outline: none;
 }
 
 .addToCart:hover {
@@ -199,16 +213,18 @@ body {
 
 .favourite {
   position: relative;
-  bottom: 85px;
+  top: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-left: 20px;
   width: 297px;
   height: 50px;
   border-radius: 7px;
+  transition: background-color 0.8s ease;
   background-color: #ffffff;
   color: #333333;
   border: 1px solid #333333;
+  outline: none;
 }
 
 .favourite:hover {
@@ -233,17 +249,19 @@ body {
   margin-right: 5px;
 }
 
-#container3 {
+#footer {
   display: flex;
   height: 140px;
   background-color: #f6f6f6;
 }
 
-#container3 h5 {
+#footer h5 {
   font-family: "Montserrat", sans-serif;
+  font-style: italic;
   margin-top: 40px;
   font-weight: 400;
   margin-left: 53px;
+  font-size: 13px;
 }
 
 #newsletter {
@@ -262,18 +280,33 @@ body {
 
 #form input {
   width: 260px;
+  outline: none;
+  font-style: italic;
 }
 
 #form button {
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.6s ease;
   background-color: #ffffff;
   border: 1px solid #333333;
   margin-left: -5px;
-  font-weight: 100;
+  font-weight: 400;
   height: 21px;
-  width: 95px;
+  width: 90px;
+  outline: none;
 }
 
-#container4 {
+#form button:hover {
+  outline: none;
+  background-color: #f6f6f6;
+}
+
+#form button:focus {
+  outline: none;
+  background-color: #f6f6f6;
+}
+
+#footer-links {
   margin-top: 10px;
   height: 120px;
   display: flex;
@@ -281,7 +314,7 @@ body {
   margin-left: 95px;
 }
 
-#container4 button {
+#footer-links button {
   border: 0px;
   background-color: #f6f6f6;
   letter-spacing: 2px;
@@ -289,8 +322,9 @@ body {
   color: #aaaaaa;
   font-weight: bold;
   padding: 20px;
+  outline: none;
 }
 
-#container4 button:hover {
+#footer-links button:hover {
   color: #7f7f7f;
 }
