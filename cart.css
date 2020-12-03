@@ -24,6 +24,7 @@ html{
 body{
     width: 1024px;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
 
 .button2{
@@ -44,20 +45,13 @@ body{
     color:#7f7f7f ;
 }
 
-textarea{
-    resize: none;
-    height: 30px;
-    vertical-align: bottom;
-}
-
-
 .container3{
     background-color: #ffffff;
     display: flex;
     width: 40%;
     height: 100%;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-around; 
     left: 10px;
     position: relative;
     padding: 10px;
@@ -85,6 +79,19 @@ textarea{
     position: relative;
     text-align: right;
     height: 120px;
+    margin-bottom: 15px;
+}
+
+#shit{
+    height: 24px;
+    resize: none;
+    vertical-align: bottom;
+}
+
+#shit2{
+    height: 15px;
+    resize: none;
+    vertical-align: bottom;
 }
 
 .rmvbtn {
@@ -136,6 +143,9 @@ textarea{
     display: flex;
     height: 140px;
     background-color: #f6f6f6;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
 }
   
 #container3 h5 {
@@ -143,6 +153,7 @@ textarea{
     margin-top: 40px;
     font-weight: 400;
     margin-left: 53px;
+    font-size: 13px;
 }
   
 #newsletter {
@@ -156,24 +167,23 @@ textarea{
     margin-top: -10px;
     position: relative;
     bottom: 10px;
-    margin-left: 53px;
-    
+    margin-left: 53px; 
 }
   
 #form input {
     width: 260px;
-    height: 24px;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
 }
   
 #form button {
-    font-size: 12px;
     font-family: "Montserrat", sans-serif;
     background-color: #ffffff;
     border: 1px solid #333333;
     margin-left: -5px;
     font-weight: 400;
-    height: 24px;
-    width: 100px;
+    width: 95px;
+    height: 21px;
 }
 
 #form button:hover {
@@ -222,19 +232,6 @@ h5 {
     margin-left: 53px;
 }
 
-.order{
-    float: right;
-    position: relative;
-    background-color: #f6f6f6;
-    padding: 20px;
-    margin-top: 100px;
-    width: 35%;
-    text-align: left;
-    letter-spacing: 1px;
-    height: 60%;
-    font-family: "Montserrat", sans-serif;
-    right: 40px;
-}
 
 .sum{
     font-weight: bold;
@@ -287,6 +284,100 @@ h5 {
     font-family: "Montserrat", sans-serif;
 }
 
+.billing{
+    float: right;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6f6f6;
+    width: 340px;
+    left: -20px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 20px;
+}
 
+.ordercont{
+    float: right;
+    position: relative;
+    padding: 20px;
+    margin-top: 100px;
+    width: 35%;
+    text-align: left;
+    letter-spacing: 1px;
+    height: 60%;
+    font-family: "Montserrat", sans-serif;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
 
+.shiphead{
+    color: #555555;
+    font-weight: Bolder;
+    margin-top: -5px;
+    font-size: 15px;
 
+}
+
+.shiptext1{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 13px;
+
+}
+
+.shiptext1st{
+    color: #333333;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.shiptext2{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 13px;
+
+}
+
+.shiptext2st{
+    color: #333333;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.shiptext3{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 13px;
+
+}
+
+.shiptext3st{
+    color: #333333;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.shiptext3right{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 13px;
+    right: 0px;
+    float:right;
+    text-align: right;
+}
+
+.shiptext3rightnd{
+    color: #333333;
+    margin-top: 5px;
+    font-size: 13px;
+    right: -20px;
+    float:right;
+    text-align: right;
+    position: relative;
+}
