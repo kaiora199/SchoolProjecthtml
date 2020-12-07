@@ -82,13 +82,13 @@ body{
     margin-bottom: 15px;
 }
 
-#shit{
+#subcod{
     height: 24px;
     resize: none;
     vertical-align: bottom;
 }
 
-#shit2{
+#subcod2{
     height: 15px;
     resize: none;
     vertical-align: bottom;
@@ -351,30 +351,31 @@ h5 {
 
 .shiptext3{
     color: #333333;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 13px;
 
 }
 
 .shiptext3st{
     color: #333333;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 13px;
 
 }
 
 .shiptext3right{
     color: #333333;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 13px;
     right: 0px;
     float:right;
     text-align: right;
+    margin-bottom: 5px;
 }
 
 .shiptext3rightnd{
     color: #333333;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 13px;
     right: -20px;
     float:right;
