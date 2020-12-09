@@ -27,11 +27,13 @@ body {
 
 .header button:hover{
     color:#7f7f7f ;
+    cursor: pointer;
 }
 
 .header button:focus{
     color:#7f7f7f ;
     outline: none;
+    cursor: pointer;
 }
 
 .header h3 {
@@ -171,6 +173,10 @@ body {
     margin-left: 160px;
 }
 
+.products img:hover {
+    cursor: pointer;
+}
+
 .products button:focus {
     outline: none;
 }
@@ -190,6 +196,10 @@ body {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 5px;
+}
+
+.productDetails h3:hover {
+    cursor: pointer;
 }
 
 .productDetails t {
@@ -279,12 +289,14 @@ body {
 
 #form button:hover {
     outline: none;
-    background-color: #f6f6f6
+    background-color: #f6f6f6;
+    cursor: pointer;
 }
 
 #form button:focus {
     outline: none;
-    background-color: #f6f6f6
+    background-color: #f6f6f6;
+    cursor: pointer;
 }
   
 .footer2 {
@@ -308,9 +320,11 @@ body {
 .footer2 button:hover {
     outline: none;
     color: #7f7f7f;
+    cursor: pointer;
 }
 
 .footer2 button:focus {
     outline: none;
     color: #7f7f7f;
+    cursor: pointer;
 }
