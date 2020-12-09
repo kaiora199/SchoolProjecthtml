@@ -27,6 +27,14 @@ body{
     margin: auto;
 }
 
+h4{
+    margin-left: 40px;
+}
+
+.shopcart{
+    margin-left: 35px;
+}
+
 .button2{
     border: 0px;
     background-color: #f6f6f6;
@@ -36,7 +44,7 @@ body{
     font-weight: bold;
     padding: 20px;
     outline: none;
-    
+    cursor: pointer;
     
     
 }
@@ -100,7 +108,7 @@ body{
     color: #AAAAAA;
     font-size: 20px;
     outline: none;
-
+    cursor: pointer;
 }
 
 .bkbtn{
@@ -110,8 +118,9 @@ body{
     font-size: 20px;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 10px;
+    margin-left: 30px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .rmvbtn:hover{
@@ -133,6 +142,7 @@ body{
     right: 10px;
     position: relative;
     background-color: white;
+    cursor: pointer;
 }
 
 .submit2:hover{
@@ -184,6 +194,7 @@ body{
     font-weight: 400;
     width: 95px;
     height: 21px;
+    cursor: pointer;
 }
 
 #form button:hover {
@@ -282,6 +293,7 @@ h5 {
     background-color: #000000;
     color: white;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
 }
 
 .billing{
